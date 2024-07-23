@@ -4,7 +4,7 @@ This is a simple blogapp that i have made on nodeJS using features like express 
 # Course
 This website was made during my NodeJs course on youtube, if you wanna try learn this too, search from "Victor Lima - Curso completo de Node JS".
 
-Is a brazilian course but it's really good, if you have problems you can use the youtube's commentes to help you to improve your code
+It's a brazilian course but it's really good, if you have problems you can use the youtube's commentes to help you to improve your code
 
 # yblindz's social media
 I have some social media, i think you can see them in my GitHub but if not, i'll list them for u: 
