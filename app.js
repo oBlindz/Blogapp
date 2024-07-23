@@ -52,7 +52,7 @@
     app.set('view engine', 'handlebars');
     app.set('views', './views');
   // Mongoose
-    mongoose.connect("mongodb://localhost:27017/blogapp").then(() => {
+    mongoose.connect(`mongodb+srv://dbUser:senhafacil123@blogapp.urkakah.mongodb.net/?retryWrites=true&w=majority&appName=Blogapp`).then(() => {
       console.log(`Mongo conectado!`);
     }).catch((err) => {
       console.log(`Houve o seguinte erro: ${err}`);
