@@ -14,16 +14,13 @@ const Passport = (passport) => {
     .lean()
     .then((usuario) => {
       if(!usuario){
-        console.log("1")
         return done(null, false, {message: "Está conta não existe"})
       }
 
       bcrypt.compare(senha, usuario.senha, (erro, batem) => {
         if(batem){
-          console.log('2')
           return done(null, usuario)
         } else {
-          console.log("3")
           return done(null, false, {message: "Senha incorreta"})
         }
       })
